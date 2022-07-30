@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
+  border-bottom: 2px solid #5e7ce2;
   padding-bottom: 6px;
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  background-color: #ACECA1;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #5e7ce2;
   text-decoration: none;
 }
 
@@ -1087,6 +1087,10 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.contract {
+  vertical-align: top !important;
 }
 
 @media (max-width: 992px) {
